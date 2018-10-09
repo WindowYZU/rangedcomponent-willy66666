@@ -51,7 +51,7 @@ public class Slider2 {
                 textField.setText(""+slider.getValue());
             }
         });
-        
+         
         ///////////////////////////////////////
         
         frame.setVisible(true);
