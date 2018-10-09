@@ -22,7 +22,7 @@ public class ProgressBar1 {
     public static void main(String[] args) throws Exception {
         // TODO code application logic here
         JFrame frame = new JFrame();
-        frame.setSize(800, 600);
+        frame.setSize(200, 150);
         frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         frame.setLayout(new FlowLayout());
         JProgressBar progressBar = new JProgressBar();
@@ -31,7 +31,7 @@ public class ProgressBar1 {
         //這幾個屬性
         progressBar.setMinimum(0);
         progressBar.setMaximum(100);
-        progressBar.setValue(30);
+        progressBar.setValue(0);
         progressBar.setStringPainted(true);
         progressBar.setIndeterminate(true);
         
